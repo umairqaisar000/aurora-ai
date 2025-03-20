@@ -30,7 +30,7 @@ export default async function Home() {
             width={500}
             height={100}
             alt="Logo"
-            className="max-w-lg object-contain"
+            className="max-w-xs lg:max-w-lg object-contain"
           />
           <p className="text-center max-w-[500px]">
             Your AI powered sales assistant! Embed Corinna AI into any website
@@ -44,7 +44,7 @@ export default async function Home() {
             width={400}
             height={100}
             alt="Logo"
-            className="max-w-lg object-contain"
+            className="max-w-xs lg:max-w-lg object-contain"
           />
         </div>
       </section>
@@ -55,7 +55,7 @@ export default async function Home() {
           {" you're"} not ready to commit you can get started for free.
         </p>
       </section>
-      <div className="flex  justify-center gap-4 flex-wrap my-6">
+      <div className="flex  justify-center gap-4 flex-wrap my-6" id="pricing">
         {pricingCards.map((card) => (
           <Card
             key={card.title}
