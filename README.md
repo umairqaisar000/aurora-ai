@@ -13,7 +13,7 @@ To get started with aurora-ai, follow these steps:
 
 
 ```bash
-
+https://github.com/umairqaisar000/aurora-ai
 ```
 
 ```bash
