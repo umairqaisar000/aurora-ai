@@ -55,7 +55,7 @@ export default async function Home() {
           {" you're"} not ready to commit you can get started for free.
         </p>
       </section>
-      <div className="flex  justify-center gap-4 flex-wrap mt-6">
+      <div className="flex  justify-center gap-4 flex-wrap my-6">
         {pricingCards.map((card) => (
           <Card
             key={card.title}
