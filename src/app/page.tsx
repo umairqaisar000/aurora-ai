@@ -33,9 +33,9 @@ export default async function Home() {
             className="max-w-xs lg:max-w-lg object-contain"
           />
           <p className="text-center max-w-[500px]">
-            Your AI powered sales assistant! Embed Corinna AI into any website
+            Your AI powered sales assistant! Embed Aurora AI into any website
             with just a snippet of code!
-          </p>
+          </p>  
           <Button className="bg-violet-500 font-bold text-white px-4">
             Start For Free
           </Button>
